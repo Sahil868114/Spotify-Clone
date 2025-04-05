@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="https://th.bing.com/th/id/ODLS.7a9f6732-2bd7-49fd-80d5-30c18f523607?w=16&h=16&c=7&rs=1&p=0&o=5&dpr=1.3&pid=1.7" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>best of NCS - No Copyright Sounds</h1>
+            <div>
+                <div class="songItem">
+                    <img src="https://th.bing.com/th/id/OIP.tSxkEE9vrOIVEUwuGHDrDAHaIX?w=158&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Song 1">
+                    <span class="songName">Tera Chehra</span>
+                    <span class="songlistplay"><span class="timestamp">4:34</span><i id="1" class="songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="https://th.bing.com/th/id/OIP.ARzTlPbBhOoJk1j6N2i2mQHaEK?w=158&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Song 2">
+                    <span class="songName">Tu Hain Toh Main Hoon</span>
+                    <span class="songlistplay"><span class="timestamp">4:07</span><i id="2" class="songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="https://th.bing.com/th/id/OIP.IP3Zz2zIeizryGDcaD59AgHaEK?w=158&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Song 3">
+                    <span class="songName">Apna Bana Le</span>
+                    <span class="songlistplay"><span class="timestamp">4:21</span><i id="3" class="songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="https://th.bing.com/th/id/OIP.tSxkEE9vrOIVEUwuGHDrDAHaIX?w=158&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Song 1">
+                    <span class="songName">sajni</span>
+                    <span class="songlistplay"><span class="timestamp">4:34</span><i id="4" class="songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="https://th.bing.com/th/id/OIP.ARzTlPbBhOoJk1j6N2i2mQHaEK?w=158&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Song 2">
+                    <span class="songName">Tum Hi Ho</span>
+                    <span class="songlistplay"><span class="timestamp">4:07</span><i id="5" class="songItemPlay fa-solid fa-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- font awesome icons -->
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="https://media.giphy.com/media/149mbArhpEpry0/giphy.gif" width="50px" alt="" id="gif"> <span id="masterSongName"></span>Tera Chehra
+        </div>
+    </div>
+    
+    <script src="script.js" ></script>
+</body>
+</html>
